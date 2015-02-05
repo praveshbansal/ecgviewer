@@ -1,0 +1,31 @@
+<style type="text/css">
+    .box{
+        width: 150px;
+        height: 150px;
+        background: #ccc;
+        border: 1px solid #999;
+    }
+    .shadow-inside{
+        -moz-box-shadow:    inset 0 0 10px #666; /* for gecko based browsers */
+        -webkit-box-shadow: inset 0 0 10px #666; /* for webkit based browsers */
+        box-shadow:         inset 0 0 10px #666;
+    }
+    .shadow-outside{
+        -moz-box-shadow:    2px 2px 4px 2px #999;
+        -webkit-box-shadow: 2px 2px 4px 2px #999;
+        box-shadow:         2px 2px 4px 2px #999;
+    }
+    .shadow-outside-all{
+        -moz-box-shadow:    0 0 6px 3px #999;
+        -webkit-box-shadow: 0 0 6px 3px #999;
+        box-shadow:         0 0 6px 3px #999;
+    }
+    .shadow-outside-bottom{
+        -moz-box-shadow:    0 10px 5px -5px #999;
+        -webkit-box-shadow: 0 10px 5px -5px #999;
+        box-shadow:         0 10px 5px -5px #999;
+    }
+    .example{
+        margin: 30px;
+    }
+</style>
